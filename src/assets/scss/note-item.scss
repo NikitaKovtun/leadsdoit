@@ -1,0 +1,37 @@
+.note-item-component {
+  margin-bottom: 35px;
+  &-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-text,
+    &-icon {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      color: var(--blue);
+      &:hover {
+        color: var(--blue-dark);
+      }
+    }
+  }
+
+  &-info {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+
+    &-date {
+      margin-right: 15px;
+    }
+
+    &-category {
+      cursor: pointer;
+      margin-left: 5px;
+      color: var(--blue);
+      &:hover {
+        color: var(--blue-dark);
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.header-component {
+  height: 55px;
+  background: var(--white-soft);
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  &-title {
+    cursor: pointer;
+  }
+
+  &-action {
+    &-btn {
+      padding: 10px;
+      border: none;
+      border-radius: 50rem;
+      font-weight: bold;
+      background-color: var(--green);
+      color: var(--white);
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &-save {
+        background-color: var(--blue);
+        margin-right: 15px;
+      }
+    }
+  }
+}
